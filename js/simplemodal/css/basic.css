@@ -1,0 +1,46 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */
+
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:black;  }
+
+
+/* Container */
+#simplemodal-container {
+	/* width:460px; color:#d0d0d0; background:#090909  *//*url(../../../img/gridbg_transp.gif) repeat*//* ; border: 1px solid #333333; padding:12px;  */
+	margin:0px; 
+	margin-left:20px;
+	height: auto;
+	
+	background: transparent url(../../../img/noise.png) repeat;
+	width: 434px;
+	padding: 25px 34px 25px 34px;
+}
+#simplemodal-container .simplemodal-data {padding:6px;}
+#simplemodal-container .simplemodal-data p {padding:0;}
+
+#simplemodal-container a.modalCloseImg {
+background:url(../../../img/close_icon.png) no-repeat; width:41px; height:41px; display:inline; z-index:3200; position:absolute; top:-20px; right:-20px; cursor:pointer;
+background-position: 0 0;
+-webkit-transition:background-position 400ms ease;
+-moz-transition: background-position 400ms ease;
+-o-transition: background-position 400ms ease;
+}
+
+#simplemodal-container a.modalCloseImg:hover {
+background-position: 0 -41px;
+}
+
+
